@@ -1,21 +1,22 @@
 .arlinks{
 
     list-style-type: none;
-    background-color: darkolivegreen;
-    margin: 0;
-    padding: 0;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
 nav li {
-    float: left;
+    float: right;
 }
 
+
 nav li a {
-    padding: 20px 20px;
+    padding: 25px 25px;
     text-decoration: none;
     color: white;
-    display: block;
+    display: inline-flex;
 }
 
 nav li a:hover{
@@ -24,8 +25,8 @@ nav li a:hover{
 
 .styleimages{
 
-    background-image: url("../images/Two...,.jpg");
-    height: 500px;
+    background-image: url("../images/Jay.jpg");
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -36,26 +37,26 @@ nav li a:hover{
 .artexts{
 
     text-align: center;
-    color: black;
-    font-size: 28px;
+    color: Black;
+    font-size: 48px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    position: absolute;
+    position: relative;
 
 }
 .arbutton{
     padding: 12px 12px;
     width: 60%;
     border-radius: 12px;
-    background-color: darkgray;
+    background-color: paleturquoise;
     color: white;
 
 }
 
 nav , section{
-    margin: 3px;
-    padding: 2px;
+    margin: Auto;
+    padding: Auto;
 }
 
 .center{
@@ -87,24 +88,26 @@ nav , section{
 }
 
 #about p {
-    border: none;
+    border: 1px palegoldenrod;
     padding: 15px;
 }
 .container{
     padding: 20px;
     background-color: lightgray;
-}
 
+
+}
 .row:after {
-    content:"";
+    content:'''';
     display: table;
     clear: both;
+
 }
 
 .col-20{
     float: left;
     width: 20%;
-    margin: top: 6px;
+    margin: top: 20px;
 
 }
 .col-25{
@@ -123,26 +126,23 @@ nav , section{
     margin:top: 6px;
 }
 input,textarea{
-    width: 90%;
-    padding: 10px;
+    width: 70%;
+    padding: 6px;
     boarder-radius: 4px;
-    border: 1px solid green;
+    border: 1px palegoldenrod;
     resize: vertical;
 
 }
 label{
-   display: inline-block;
-    padding: 12px 12px 12px 0;
+    display: inline-block;
+    padding: 10px 10px 10px 0;
 
 }
 
-
-.submitbtn{
+.submitbutton{
     float: right;
-    padding: 12px 10px;
+    padding: 15px 12px;
     width: 20%;
-    background-color: green;
-    Boarder-radius: 4px;
-    boarder- none
-
-}
+    background-color: palevioletred;
+    Boarder-radius: 2px;
+    boarder- none;

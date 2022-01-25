@@ -14,10 +14,11 @@ form{
     margin: 9px;
 }
 .otherinputs{
-    margin: 9px;
+    margin: 4px;
 }
 #buttonthe{
-    background-color: bisque;
+    float: right;
+    background-color: lightskyblue;
     color: brown;
     padding: 5px 5px;
     width: 40%;

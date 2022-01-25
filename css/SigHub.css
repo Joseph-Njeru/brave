@@ -1,7 +1,7 @@
 .arlinks{
 
     list-style-type: none;
-    background-color: darkolivegreen;
+    background-color: goldenrod;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -11,8 +11,9 @@ nav li {
     float: left;
 }
 
+
 nav li a {
-    padding: 20px 20px;
+    padding: 15px 15px;
     text-decoration: none;
     color: white;
     display: block;
@@ -24,10 +25,10 @@ nav li a:hover{
 
 .styleimages{
 
-    background-image: url("../images/Two...,.jpg");
+    background-image: url("../images/Telecommunication-tower.webp");
     height: 500px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     background-position: center;
 
@@ -36,7 +37,7 @@ nav li a:hover{
 .artexts{
 
     text-align: center;
-    color: black;
+    color: Goldenrod;
     font-size: 28px;
     top: 50%;
     left: 50%;
@@ -48,7 +49,7 @@ nav li a:hover{
     padding: 12px 12px;
     width: 60%;
     border-radius: 12px;
-    background-color: darkgray;
+    background-color: paleturquoise;
     color: white;
 
 }
@@ -87,24 +88,26 @@ nav , section{
 }
 
 #about p {
-    border: none;
+    border: 1px palegoldenrod;
     padding: 15px;
 }
 .container{
     padding: 20px;
     background-color: lightgray;
-}
 
+
+}
 .row:after {
-    content:"";
+    content:'''';
     display: table;
     clear: both;
+
 }
 
 .col-20{
     float: left;
     width: 20%;
-    margin: top: 6px;
+    margin: top: 20px;
 
 }
 .col-25{
@@ -126,23 +129,20 @@ input,textarea{
     width: 90%;
     padding: 10px;
     boarder-radius: 4px;
-    border: 1px solid green;
+    border: 1px palegoldenrod;
     resize: vertical;
 
 }
 label{
-   display: inline-block;
+    display: inline-block;
     padding: 12px 12px 12px 0;
 
 }
 
-
-.submitbtn{
+.submitbutton{
     float: right;
-    padding: 12px 10px;
+    padding: 15px 12px;
     width: 20%;
-    background-color: green;
-    Boarder-radius: 4px;
-    boarder- none
-
-}
+    background-color: palevioletred;
+    Boarder-radius: 2px;
+    boarder- none;
